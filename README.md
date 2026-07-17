@@ -98,14 +98,6 @@ glance-fashion-retrieval/
 - **Vector Database**: ChromaDB (Cosine similarity)
 - **Dataset**: 3,000 images sampled from Fashionpedia (prioritizing natural backgrounds)
 
-## 📊 Evaluation Results
-*(To be populated after running the evaluation queries)*
-- Q1: "A person in a bright yellow raincoat."
-- Q2: "Professional business attire inside a modern office."
-- Q3: "Someone wearing a blue shirt sitting on a park bench."
-- Q4: "Casual weekend outfit for a city walk."
-- Q5: "A red tie and a white shirt in a formal setting."
-
 ## 🔮 Future Work
 - **Location/Weather Parsing**: Implement SpaCy/NLP extraction for specific geographic locations and weather conditions.
 - **Precision Improvements**: Fine-tune the bi-encoder on hard negatives for better recall.
