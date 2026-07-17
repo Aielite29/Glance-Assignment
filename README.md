@@ -50,15 +50,9 @@ cd glance-fashion-retrieval
 pip install -r requirements.txt
 ```
 
-### 2. Configuration
-Set your Gemini API key:
-```bash
-export GEMINI_API_KEY="your-api-key"
-```
-
 Adjust paths in `src/config.py` if your Fashionpedia dataset is located elsewhere.
 
-### 3. Run Pipeline
+### 2. Run Pipeline
 ```bash
 # 1. Data Pipeline
 python src/data_pipeline/subsample.py
